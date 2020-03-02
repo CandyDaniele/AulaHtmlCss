@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    /*tirou os espaços pra ocupar a tela toda*/
+}
+
+/* header start*/
+header {
+    text-align: center;
+    border: 2px solid #ccc;
+}
+
+header ul {
+    list-style: none;
+    /*tirar a bolinha da lista*/
+    padding-left: 0px;
+    /*tirou um espaço que tinha vendo no inspecionar/elements/styles*/
+}
+
+header li {
+    display: inline-block;
+    /*deixou os links um do lado do outro em vez de embaixo*/
+    padding: 10px 20px;
+    /*border: 2px solid black; */
+    /*padding o que esta dentro da borda (espaço), margin o que esta fora da borda*/
+}
+
+header li a {
+    text-decoration: none;
+    /*tirar o underline do link*/
+    color: #555;
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+/* headr finish*/
+
+/* footer start */
+footer {
+    background-color: #f2f2f2;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+/* footer finish */
+
+/*banner home */
+main#banner {
+    background-image: url(../img/jane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 73vh;
+    /* 100% na altura = h */
+
+}
+
+main#about {
+    text-align: center;
+    line-height: 35px;
+}
+
+cite {
+    font-weight: bold;
+    font-style: unset;
+}
+
+li a.inbold {
+    font-weight: bold;
+}
+
+.listacom{
+    list-style: circle;
+}
+
+main#music{
+    font-size: 5;
+    width:  900px;
+    margin: 30px auto;
+}
+
+main#contact{
+    width: 900px;
+    margin: 30px auto;
+}
